@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Cody Ko</title>
+  <meta name="description" content="Personal website of humanitarian/playboy Cody Ko">
+  <meta name="author" content="Cody Ko">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="Resources/css/normalize.css">
+  <link rel="stylesheet" href="Resources/css/skeleton.css">
+  <link rel="stylesheet" href="Resources/css/custom.css">
+
+  <!-- SCRIPTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <img src="Resources/images/me.jpg" />
+        <h4>Cody Ko</h4>
+        <p>Co-founder of <a href="http://sick.af">sick.af</a></p>
+        <div class="social">
+        <a href="http://twitter.com/codyk">a</a> <a href="http://instagram.com/codyko">x</a> <a href="http://vine.co/codyko">u</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  $("a").on('click', function() {
+    window.open($(this).attr('href'));
+    return false;
+  });
+  </script>
+
+</body>
+</html>
